@@ -1,0 +1,229 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ARM User ARM ARM Flex license: MDK Plus 5.34 (Flex): 25000 user(s) (mdk_plus) Operation stops: 31 Jan 2022
+ 
+Tool Versions:
+Toolchain:       MDK Plus 5.34 (Flex): 25000 user(s)  Version: 5.34.0.0
+Toolchain Path:  c:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      UL2V8M.DLL V1.6.10.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\oyiben01\Documents\SVN\Efficient Embedded Education Kit-NUCLEO-F401RE\contents\C Code as Implemented in Assembly Language\Code\CinAsm_demo\CInAsmDemo.uvprojx
+Project File Date:  07/28/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'c:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+drivers/adc.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling adc.c...
+compiling main.c...
+drivers/comparator.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling comparator.c...
+drivers/stm32f4xx_adc.c(98): warning: In file included from...
+./drivers/stm32f4xx_adc.h(32): error: 'stm32f4xx.h' file not found
+#include "stm32f4xx.h"
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling stm32f4xx_adc.c...
+src/test.c(1): warning: no previous extern declaration for non-static variable 'gb' [-Wmissing-variable-declarations]
+int ga, gb=5;
+        ^
+src/test.c(1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int ga, gb=5;
+^
+src/test.c(14): warning: no previous prototype for function 'test_static_auto_local_variables' [-Wmissing-prototypes]
+void test_static_auto_local_variables(void) {
+     ^
+src/test.c(14): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void test_static_auto_local_variables(void) {
+^
+static 
+src/test.c(69): warning: implicit conversion changes signedness: 'unsigned int' to 'int' [-Wsign-conversion]
+        return x+i+y+z;
+        ~~~~~~ ~~~~~^~
+src/test.c(35): warning: no previous prototype for function 'test_control_structures' [-Wmissing-prototypes]
+int test_control_structures(void) {
+    ^
+src/test.c(35): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int test_control_structures(void) {
+^
+static 
+src/test.c(73): warning: no previous prototype for function 'test_get_arrays' [-Wmissing-prototypes]
+unsigned int test_get_arrays(unsigned char n, unsigned char j) {
+             ^
+src/test.c(73): note: declare 'static' if the function is not intended to be used outside of this translation unit
+unsigned int test_get_arrays(unsigned char n, unsigned char j) {
+^
+static 
+src/test.c(81): warning: no previous prototype for function 'test_mult' [-Wmissing-prototypes]
+int test_mult(int arg3_1, int arg3_2, int arg3_3, int arg3_4) {
+    ^
+src/test.c(81): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int test_mult(int arg3_1, int arg3_2, int arg3_3, int arg3_4) {
+^
+static 
+src/test.c(85): warning: no previous prototype for function 'test_for' [-Wmissing-prototypes]
+int test_for(int arg2_1, int arg2_2) {
+    ^
+src/test.c(85): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int test_for(int arg2_1, int arg2_2) {
+^
+static 
+src/test.c(97): warning: no previous prototype for function 'test_call' [-Wmissing-prototypes]
+int test_call(int arg1_1) {
+    ^
+src/test.c(97): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int test_call(int arg1_1) {
+^
+static 
+src/test.c(106): warning: array subscript is of type 'char' [-Wchar-subscripts]
+        x[c] = b;
+         ^~
+src/test.c(103): warning: no previous prototype for function 'test_set_arrays' [-Wmissing-prototypes]
+int test_set_arrays(char a, int b, char c) {
+    ^
+src/test.c(103): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int test_set_arrays(char a, int b, char c) {
+^
+static 
+src/test.c(1): warning: no previous extern declaration for non-static variable 'ga' [-Wmissing-variable-declarations]
+int ga, gb=5;
+    ^
+src/test.c(1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int ga, gb=5;
+^
+src/test.c(3): warning: no previous extern declaration for non-static variable 'buff1' [-Wmissing-variable-declarations]
+volatile unsigned char buff1[3];
+                       ^
+src/test.c(3): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile unsigned char buff1[3];
+         ^
+src/test.c(4): warning: no previous extern declaration for non-static variable 'buff2' [-Wmissing-variable-declarations]
+volatile unsigned char buff2[3]; 
+                       ^
+src/test.c(4): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile unsigned char buff2[3]; 
+         ^
+src/test.c(5): warning: no previous extern declaration for non-static variable 'buff3' [-Wmissing-variable-declarations]
+volatile unsigned short int buff3[5][7];
+                            ^
+src/test.c(5): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile unsigned short int buff3[5][7];
+         ^
+src/test.c(12): warning: no previous extern declaration for non-static variable 'siA' [-Wmissing-variable-declarations]
+int siA;
+    ^
+src/test.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int siA;
+^
+15 warnings generated.
+compiling test.c...
+drivers/gpio.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling gpio.c...
+drivers/i2c.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling i2c.c...
+drivers/stm32f4xx_gpio.c(79): warning: In file included from...
+./drivers/stm32f4xx_rcc.h(31): error: 'stm32f4xx.h' file not found
+#include "stm32f4xx.h"
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling stm32f4xx_gpio.c...
+drivers/stm32f4xx_i2c.c(87): warning: In file included from...
+./drivers/stm32f4xx_i2c.h(32): error: 'stm32f4xx.h' file not found
+#include "stm32f4xx.h"
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling stm32f4xx_i2c.c...
+drivers/stm32f4xx_rcc.c(56): warning: In file included from...
+./drivers/stm32f4xx_rcc.h(31): error: 'stm32f4xx.h' file not found
+#include "stm32f4xx.h"
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling stm32f4xx_rcc.c...
+drivers/stm32f4xx_usart.c(85): warning: In file included from...
+./drivers/stm32f4xx_rcc.h(31): error: 'stm32f4xx.h' file not found
+#include "stm32f4xx.h"
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling stm32f4xx_usart.c...
+drivers/timer.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling timer.c...
+drivers/uart.c(1): warning: In file included from...
+./drivers\platform.h(18): error: 'STM32F4xx.h' file not found
+#include <STM32F4xx.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+compiling uart.c...
+compiling system_stm32l5xx.c...
+assembling startup_stm32l552xx.s...
+".\Objects\AsmDemo.axf" - 11 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L5xx_DFP.1.3.0.pack
+                Keil.STM32L5xx_DFP.1.3.0
+                STMicroelectronics STM32L5 Series Device Support
+   * Component: Startup Version: 1.0.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  c:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  c:\Keil_v5\ARM\PACK\Keil\STM32L5xx_DFP\1.3.0\Drivers\CMSIS\Device\ST\STM32L5xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+
+   * Component: Keil::Device:Startup:1.0.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\arm\startup_stm32l552xx.s
+      Source file:   MDK\Device\Source\ARM\STM32L5xx_S_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32L5xx_NS_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32L5xx\Include\stm32l5xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\system_stm32l5xx.c
+      Include file:  Drivers\CMSIS\Device\ST\STM32L5xx\Include\partition_stm32l5xx.h
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

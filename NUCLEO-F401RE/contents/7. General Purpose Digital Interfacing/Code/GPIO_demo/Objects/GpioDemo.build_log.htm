@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ARM User ARM ARM Flex license: MDK Plus 5.34 (Flex): 25000 user(s) (mdk_plus) Operation stops: 31 Jan 2022
+ 
+Tool Versions:
+Toolchain:       MDK Plus 5.34 (Flex): 25000 user(s)  Version: 5.34.0.0
+Toolchain Path:  c:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\oyiben01\Documents\SVN\Efficient Embedded Education Kit-NUCLEO-F401RE\contents\General Purpose Digital Interfacing\Code\GPIO_demo\GPIODemo.uvprojx
+Project File Date:  08/06/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'c:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling delay.c...
+compiling lcd.c...
+compiling main.c...
+compiling comparator.c...
+.\drivers\adc.h(10): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE"  (declared at line 678 of "c:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+.\drivers\adc.h(23): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 692 of "c:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+drivers\comparator.c: 2 warnings, 0 errors
+compiling leds.c...
+compiling gpio.c...
+compiling adc.c...
+.\drivers\adc.h(10): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE"  (declared at line 678 of "c:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define ADC1_BASE             (APB2PERIPH_BASE + 0x2000)
+.\drivers\adc.h(23): warning:  #47-D: incompatible redefinition of macro "GPIOA_BASE"  (declared at line 692 of "c:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h")
+  #define GPIOA_BASE            (AHB1PERIPH_BASE + 0x0000)
+drivers\adc.c: 2 warnings, 0 errors
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling timer.c...
+compiling i2c.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_adc.c...
+assembling startup_stm32f401xe.s...
+compiling system_stm32f4xx.c...
+compiling uart.c...
+linking...
+Program Size: Code=2872 RO-data=436 RW-data=68 ZI-data=1636  
+".\Objects\GpioDemo.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  c:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  c:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

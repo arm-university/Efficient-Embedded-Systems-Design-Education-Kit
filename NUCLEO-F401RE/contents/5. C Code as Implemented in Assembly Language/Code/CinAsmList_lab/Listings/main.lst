@@ -1,0 +1,45 @@
+L 1 "src\main.c"
+N#define NUM_ELS (10)
+N#define NOT_FOUND (-1)
+N
+Nint list[NUM_ELS];
+Xint list[(10)];
+Nint offset[10] = {31,94,55,19,98,85,38,356,134,15};
+N
+Nvoid list_init(void) {
+N	unsigned int i;
+N	for (i = 0; i < NUM_ELS; i++) {
+X	for (i = 0; i < (10); i++) {
+N		if (i < 10) {
+N			list[i] = i * i * i - offset[i];
+N		} else {
+N			list[i] = i*2000;
+N		}
+N	}
+N}
+N
+Nint list_find(int key) {
+N	unsigned int i;
+N	for (i = 0; i < NUM_ELS; i++) {
+X	for (i = 0; i < (10); i++) {
+N		if (list[i] == key)
+N			return i;
+N	}
+N	return NOT_FOUND;
+X	return (-1);
+N}
+N
+Nint main(void)
+N{
+N	volatile int a, b, c;
+N	
+N	list_init();
+N	
+N	a = list_find(-13);
+N	b = list_find(44);
+N	c = list_find(8);
+N	
+N	while (1);
+N}
+N
+N// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
