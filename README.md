@@ -15,7 +15,7 @@ Our Efficient Embedded Systems Design Education Kit covers the fundamentals of E
  ## Kit specification:
 
 * A full set of lecture slides, ready for use in a typical 10-12-week undergraduate course (full syllabus below).
-* Software licenses from Arm
+* Recent updates to the EdKit include updated material on Armv8-M architecture and the Cortex-M33 processor, a dedicated module on Arm's system-wide Trustzone security technology and refreshed lab exercises on the ST Nucleo-L552ZE-Q board.
 * Lab manual with solutions for faculty. Labs are based on low-cost yet powerful Arm-based hardware platforms donated by partners (subject to availability). 
 * **Prerequisites:** Basics of C and assembly programming.
 
