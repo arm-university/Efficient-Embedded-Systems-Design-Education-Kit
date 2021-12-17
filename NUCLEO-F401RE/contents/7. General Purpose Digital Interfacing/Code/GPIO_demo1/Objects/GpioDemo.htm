@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\GpioDemo.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\GpioDemo.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Sep 02 00:29:33 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Wed Dec 15 23:52:31 2021
 <BR><P>
-<H3>Maximum Stack Usage =         96 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =         80 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 <P>
@@ -118,9 +118,9 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
 </UL>
 
-<P><STRONG><a name="[7c]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[80]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[7d]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[81]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
 <P><STRONG><a name="[4f]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
@@ -128,7 +128,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
 </UL>
 
-<P><STRONG><a name="[7e]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+<P><STRONG><a name="[82]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
 
 <P><STRONG><a name="[55]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
@@ -138,72 +138,72 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_init
 </UL>
 
-<P><STRONG><a name="[7f]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+<P><STRONG><a name="[83]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
 
-<P><STRONG><a name="[80]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+<P><STRONG><a name="[84]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
 
-<P><STRONG><a name="[81]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+<P><STRONG><a name="[85]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
 
-<P><STRONG><a name="[82]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+<P><STRONG><a name="[86]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
 
-<P><STRONG><a name="[83]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+<P><STRONG><a name="[87]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
 
-<P><STRONG><a name="[84]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+<P><STRONG><a name="[88]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
 
-<P><STRONG><a name="[85]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+<P><STRONG><a name="[89]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
 
-<P><STRONG><a name="[86]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+<P><STRONG><a name="[8a]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
 
-<P><STRONG><a name="[87]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+<P><STRONG><a name="[8b]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
 
-<P><STRONG><a name="[88]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+<P><STRONG><a name="[8c]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
 
-<P><STRONG><a name="[89]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+<P><STRONG><a name="[8d]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
 
-<P><STRONG><a name="[8a]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+<P><STRONG><a name="[8e]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
 
-<P><STRONG><a name="[8b]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+<P><STRONG><a name="[8f]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
 
-<P><STRONG><a name="[8c]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+<P><STRONG><a name="[90]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
 
-<P><STRONG><a name="[8d]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+<P><STRONG><a name="[91]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
 
-<P><STRONG><a name="[8e]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+<P><STRONG><a name="[92]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
 
-<P><STRONG><a name="[8f]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+<P><STRONG><a name="[93]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
 
-<P><STRONG><a name="[90]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+<P><STRONG><a name="[94]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
 
-<P><STRONG><a name="[91]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+<P><STRONG><a name="[95]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
 
-<P><STRONG><a name="[92]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+<P><STRONG><a name="[96]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
 
 <P><STRONG><a name="[5a]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
 </UL>
 
-<P><STRONG><a name="[93]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+<P><STRONG><a name="[97]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
 
-<P><STRONG><a name="[94]"></a>__rt_lib_shutdown_fini_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+<P><STRONG><a name="[98]"></a>__rt_lib_shutdown_fini_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
 
-<P><STRONG><a name="[95]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
+<P><STRONG><a name="[99]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
 
-<P><STRONG><a name="[96]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000011))
+<P><STRONG><a name="[9a]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000011))
 
-<P><STRONG><a name="[97]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000012))
+<P><STRONG><a name="[9b]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000012))
 
-<P><STRONG><a name="[98]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+<P><STRONG><a name="[9c]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
-<P><STRONG><a name="[99]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
+<P><STRONG><a name="[9d]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
 
-<P><STRONG><a name="[9a]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
+<P><STRONG><a name="[9e]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
 
 <P><STRONG><a name="[4d]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
 <LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
-<P><STRONG><a name="[9b]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+<P><STRONG><a name="[9f]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
 
 <P><STRONG><a name="[52]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
@@ -216,17 +216,17 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
 </UL>
 
-<P><STRONG><a name="[9c]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+<P><STRONG><a name="[a0]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[56]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96 + Unknown Stack Size
+<BR><BR>[Stack]<UL><LI>Max Depth = 80 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
-<P><STRONG><a name="[9d]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+<P><STRONG><a name="[a1]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
 
 <P><STRONG><a name="[5f]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -236,15 +236,15 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 </UL>
 
-<P><STRONG><a name="[9e]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+<P><STRONG><a name="[a2]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
 
 <P><STRONG><a name="[5b]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
 </UL>
 
-<P><STRONG><a name="[66]"></a>delay_cycles</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, delay.o(.emb_text))
-<BR><BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
-<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<P><STRONG><a name="[68]"></a>delay_cycles</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, delay.o(.emb_text))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 </UL>
 
 <P><STRONG><a name="[7]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
@@ -458,25 +458,25 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[9f]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[a3]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[1]"></a>__rt_heap_escrow</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[0]"></a>__rt_heap_expand</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[a0]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[a4]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
 <P><STRONG><a name="[5d]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[a1]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[a5]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[a2]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[a6]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[a3]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[a7]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[a4]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, indicate_semi.o(.text), UNUSED)
+<P><STRONG><a name="[a8]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, indicate_semi.o(.text), UNUSED)
 
 <P><STRONG><a name="[53]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
@@ -566,202 +566,244 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
 </UL>
-<P><STRONG><a name="[7a]"></a>USART_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_usart.o(i.USART_GetFlagStatus))
+<P><STRONG><a name="[7e]"></a>USART_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_usart.o(i.USART_GetFlagStatus))
 <BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_rx
 </UL>
 
-<P><STRONG><a name="[7b]"></a>USART_ReceiveData</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_usart.o(i.USART_ReceiveData))
+<P><STRONG><a name="[7f]"></a>USART_ReceiveData</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_usart.o(i.USART_ReceiveData))
 <BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_rx
 </UL>
 
-<P><STRONG><a name="[63]"></a>blinking_lights_init</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, main.o(i.blinking_lights_init))
+<P><STRONG><a name="[63]"></a>blinking_lights_example</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, main.o(i.blinking_lights_example))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = blinking_lights_example &rArr; leds_set &rArr; gpio_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[65]"></a>blinking_lights_init</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, main.o(i.blinking_lights_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = blinking_lights_init &rArr; leds_init &rArr; leds_set &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
+<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[65]"></a>delay_ms</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, delay.o(i.delay_ms))
+<P><STRONG><a name="[67]"></a>delay_ms</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, delay.o(i.delay_ms))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = delay_ms
 </UL>
-<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_cycles
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_cycles
 </UL>
-<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_example
 </UL>
 
-<P><STRONG><a name="[67]"></a>delay_us</STRONG> (Thumb, 74 bytes, Stack size 24 bytes, delay.o(i.delay_us))
+<P><STRONG><a name="[69]"></a>delay_us</STRONG> (Thumb, 74 bytes, Stack size 24 bytes, delay.o(i.delay_us))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_cycles
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_cycles
 </UL>
-<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
 </UL>
 
-<P><STRONG><a name="[74]"></a>gpio_get</STRONG> (Thumb, 24 bytes, Stack size 12 bytes, gpio.o(i.gpio_get))
+<P><STRONG><a name="[6b]"></a>gpio_get</STRONG> (Thumb, 24 bytes, Stack size 12 bytes, gpio.o(i.gpio_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = gpio_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_toggle
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_example
 </UL>
 
-<P><STRONG><a name="[73]"></a>gpio_set</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, gpio.o(i.gpio_set))
+<P><STRONG><a name="[6c]"></a>gpio_set</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, gpio.o(i.gpio_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = gpio_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
-<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
-<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_toggle
 </UL>
 
-<P><STRONG><a name="[6c]"></a>gpio_set_mode</STRONG> (Thumb, 288 bytes, Stack size 16 bytes, gpio.o(i.gpio_set_mode))
+<P><STRONG><a name="[71]"></a>gpio_set_mode</STRONG> (Thumb, 288 bytes, Stack size 16 bytes, gpio.o(i.gpio_set_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = gpio_set_mode
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
-<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_init
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_init
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
 </UL>
 
-<P><STRONG><a name="[68]"></a>lcd_example</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(i.lcd_example))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[6a]"></a>gpio_toggle</STRONG> (Thumb, 30 bytes, Stack size 12 bytes, gpio.o(i.gpio_toggle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = gpio_toggle &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_get
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_example
+</UL>
+
+<P><STRONG><a name="[6d]"></a>lcd_example</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(i.lcd_example))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[69]"></a>lcd_init</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, lcd.o(i.lcd_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = lcd_init &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[6e]"></a>lcd_init</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, lcd.o(i.lcd_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = lcd_init &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
-<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor_visible
-<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
-<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
-<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor_visible
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
-</UL>
-
-<P><STRONG><a name="[6a]"></a>lcd_print</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, lcd.o(i.lcd_print))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
-</UL>
-<BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_put_char
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
-</UL>
-<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
 </UL>
 
-<P><STRONG><a name="[70]"></a>lcd_put_char</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, lcd.o(i.lcd_put_char))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = lcd_put_char &rArr; lcd_write_data &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[6f]"></a>lcd_print</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, lcd.o(i.lcd_print))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_put_char
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
-</UL>
-
-<P><STRONG><a name="[72]"></a>lcd_read_status</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, lcd.o(i.lcd_read_status))
-<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
-</UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
-<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
-<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_get
-</UL>
-<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
+<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
 </UL>
 
-<P><STRONG><a name="[6b]"></a>lcd_set_cursor</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, lcd.o(i.lcd_set_cursor))
-<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[75]"></a>lcd_put_char</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, lcd.o(i.lcd_put_char))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = lcd_put_char &rArr; lcd_write_data &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
 </UL>
 
-<P><STRONG><a name="[6f]"></a>lcd_set_cursor_visible</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, lcd.o(i.lcd_set_cursor_visible))
-<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = lcd_set_cursor_visible &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[77]"></a>lcd_read_status</STRONG> (Thumb, 200 bytes, Stack size 8 bytes, lcd.o(i.lcd_read_status))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_data_dir
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_get
 </UL>
-<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
-</UL>
-
-<P><STRONG><a name="[75]"></a>lcd_write_4bit</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, lcd.o(i.lcd_write_4bit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = lcd_write_4bit &rArr; delay_us
-</UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
-</UL>
-<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
 </UL>
 
-<P><STRONG><a name="[6e]"></a>lcd_write_cmd</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lcd.o(i.lcd_write_cmd))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[70]"></a>lcd_set_cursor</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, lcd.o(i.lcd_set_cursor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
-<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
-<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor_visible
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_print
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
 </UL>
 
-<P><STRONG><a name="[64]"></a>leds_init</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, leds.o(i.leds_init))
+<P><STRONG><a name="[74]"></a>lcd_set_cursor_visible</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, lcd.o(i.lcd_set_cursor_visible))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = lcd_set_cursor_visible &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+</UL>
+
+<P><STRONG><a name="[78]"></a>lcd_write_4bit</STRONG> (Thumb, 88 bytes, Stack size 8 bytes, lcd.o(i.lcd_write_4bit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = lcd_write_4bit &rArr; delay_us
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
+</UL>
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
+</UL>
+
+<P><STRONG><a name="[73]"></a>lcd_write_cmd</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lcd.o(i.lcd_write_cmd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor_visible
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_cursor
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+</UL>
+
+<P><STRONG><a name="[66]"></a>leds_init</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, leds.o(i.leds_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = leds_init &rArr; leds_set &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
-<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
 </UL>
-<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_init
+<BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_init
 </UL>
 
-<P><STRONG><a name="[77]"></a>leds_set</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, leds.o(i.leds_set))
+<P><STRONG><a name="[64]"></a>leds_set</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, leds.o(i.leds_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = leds_set &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
 </UL>
-<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
-<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_example
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_example
 </UL>
 
-<P><STRONG><a name="[78]"></a>light_switch_init</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, main.o(i.light_switch_init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = light_switch_init &rArr; leds_init &rArr; leds_set &rArr; gpio_set
+<P><STRONG><a name="[7a]"></a>light_switch_example</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, main.o(i.light_switch_example))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = light_switch_example &rArr; leds_set &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
-<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_get
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[57]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, main.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = main &rArr; lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[7b]"></a>light_switch_init</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, main.o(i.light_switch_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = light_switch_init &rArr; leds_init &rArr; leds_set &rArr; gpio_set
 </UL>
-<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_set
-<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_init
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_init
+<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;leds_init
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[57]"></a>main</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = main &rArr; lcd_example &rArr; lcd_print &rArr; lcd_set_cursor &rArr; lcd_write_cmd &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_init
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;speaker_example
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_init
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;light_switch_example
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_example
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_init
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;blinking_lights_example
 </UL>
 <BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[79]"></a>speaker_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, main.o(i.speaker_init))
+<P><STRONG><a name="[7d]"></a>speaker_example</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, main.o(i.speaker_example))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = speaker_example &rArr; gpio_toggle &rArr; gpio_set
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_toggle
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7c]"></a>speaker_init</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, main.o(i.speaker_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = speaker_init &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -769,8 +811,8 @@ Global Symbols
 <P><STRONG><a name="[62]"></a>uart_rx</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, uart.o(i.uart_rx))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = uart_rx
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
-<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ReceiveData
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
 </UL>
 <BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
 </UL>
@@ -779,39 +821,39 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_fp_1
 </UL>
 
-<P><STRONG><a name="[a5]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[a9]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 
-<P><STRONG><a name="[a6]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[aa]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 <P>
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[71]"></a>lcd_write_data</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, lcd.o(i.lcd_write_data))
-<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = lcd_write_data &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[76]"></a>lcd_write_data</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, lcd.o(i.lcd_write_data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = lcd_write_data &rArr; wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
-<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
-<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_4bit
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wait_while_busy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_put_char
-</UL>
-
-<P><STRONG><a name="[6d]"></a>set_data_dir</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, lcd.o(i.set_data_dir))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = set_data_dir &rArr; gpio_set_mode
-</UL>
-<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
-</UL>
-<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_put_char
 </UL>
 
-<P><STRONG><a name="[76]"></a>wait_while_busy</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lcd.o(i.wait_while_busy))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+<P><STRONG><a name="[72]"></a>set_data_dir</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, lcd.o(i.set_data_dir))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = set_data_dir &rArr; gpio_set_mode
 </UL>
-<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_mode
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+</UL>
+
+<P><STRONG><a name="[79]"></a>wait_while_busy</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lcd.o(i.wait_while_busy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = wait_while_busy &rArr; lcd_read_status &rArr; set_data_dir &rArr; gpio_set_mode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_read_status
+</UL>
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_cmd
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_data
 </UL>
 
 <P><STRONG><a name="[60]"></a>__NVIC_ClearPendingIRQ</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, gpio.o(i.__NVIC_ClearPendingIRQ))

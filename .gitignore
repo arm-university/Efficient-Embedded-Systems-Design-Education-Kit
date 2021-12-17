@@ -1,1 +1,190 @@
 .DS_Store
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_dma_ex.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_dma_ex.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash_ex.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash_ex.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash_ramfunc.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_flash_ramfunc.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_gpio.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_gpio.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_pwr.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_pwr.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_pwr_ex.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_pwr_ex.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_rcc.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_rcc.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_rcc_ex.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_rcc_ex.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_tim.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_tim.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_tim_ex.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/stm32l5xx_hal_tim_ex.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/system_stm32l5xx.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/Objects/system_stm32l5xx.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/platform.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/RTE/_Target_1/Pre_Include_Global.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/RTE/_Target_1/RTE_Components.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/RTE/Device/STM32L552ZETxQ/startup_stm32l552xx.s
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/RTE/Device/STM32L552ZETxQ/stm32l552xe_flash.sct
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/RTE/Device/STM32L552ZETxQ/system_stm32l5xx.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/timer.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/timer.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/uart.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIO_demo/uart.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/adc.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/adc.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/BasicUI.uvguix.oyiben01
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/BasicUI.uvoptx
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/BasicUI.uvprojx
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/comparator.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/comparator.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/DebugConfig/Target_1_STM32L552ZETxQ_1.0.0.dbgconf
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/delay.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/delay.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/gpio.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/gpio.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/i2c.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/i2c.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/lcd.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/lcd.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/leds.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/leds.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Listings/lights.map
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/main.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/BasicUI_Target 1.dep
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/lights.build_log.htm
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/lights.htm
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/lights.lnp
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/lights.sct
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/Objects/startup_stm32l552xx.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/platform.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/_Target_1/Pre_Include_Global.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/_Target_1/RTE_Components.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/Device/STM32L552ZETxQ/startup_stm32l552xx.s
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/Device/STM32L552ZETxQ/stm32l552xe_flash.sct
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/Device/STM32L552ZETxQ/stm32l552xe_flash_ns.sct
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/Device/STM32L552ZETxQ/system_stm32l5xx.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/RTE/Device/STM32L552ZETxQ/system_stm32l5xx_ns.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/switches.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/switches.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/timer.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/timer.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/uart.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOBasicUI_lab/uart.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/adc.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/adc.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/comparator.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/comparator.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/DebugConfig/Target_1_STM32L552ZETxQ_1.0.0.dbgconf
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/delay.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/delay.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/gpio.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/gpio.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/i2c.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/i2c.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/lcd.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/lcd.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/leds.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/leds.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/main.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/platform.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/RTE/_Target_1/Pre_Include_Global.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/RTE/_Target_1/RTE_Components.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/RTE/Device/STM32L552ZETxQ/startup_stm32l552xx.s
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/RTE/Device/STM32L552ZETxQ/stm32l552xe_flash.sct
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/RTE/Device/STM32L552ZETxQ/system_stm32l5xx.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/SlideWhistle.uvguix.oyiben01
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/SlideWhistle.uvoptx
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/SlideWhistle.uvprojx
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/switches.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/switches.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/timer.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/timer.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/uart.c
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/New folder/GPIOSlideWhistle_proj_sol/uart.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/adc.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/adc.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/Adc.uvoptx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/Adc.uvprojx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/comparator.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/comparator.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/DebugConfig/Target_1_STM32L552ZETxQ_1.0.0.dbgconf
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/delay.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/delay.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/gpio.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/gpio.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/i2c.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/i2c.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/lcd.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/lcd.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/leds.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/leds.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/main.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/platform.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/RTE/_Target_1/Pre_Include_Global.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/RTE/_Target_1/RTE_Components.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/RTE/Device/STM32L552ZETxQ/startup_stm32l552xx.s
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/RTE/Device/STM32L552ZETxQ/stm32l552xe_flash.sct
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/RTE/Device/STM32L552ZETxQ/system_stm32l5xx.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/timer.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/timer.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/uart.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogAdc_lab_1/uart.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/adc.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/adc.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/Adc.uvoptx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/comparator.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/comparator.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/Comparator.uvprojx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/delay.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/delay.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/gpio.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/gpio.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/i2c.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/i2c.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/lcd.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/lcd.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/leds.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/leds.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/main.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/platform.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/timer.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/timer.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/uart.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogComparator_lab_2/uart.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/adc.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/adc.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/comparator.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/comparator.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/delay.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/delay.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/gpio.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/gpio.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/i2c.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/i2c.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/ir.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/ir.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/IRSensor.uvoptx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/IRSensor.uvprojx
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/lcd.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/lcd.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/leds.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/leds.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/main.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/platform.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/timer.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/timer.h
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/uart.c
+NUCLEO-L552ZE-Q/contents/8. Analog Interfacing/Code/New folder/AnalogIRProximitySensor_proj_sol/uart.h
+NUCLEO-L552ZE-Q/html/js/config.js
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/GPIO_demo/RTE/_Target_1/Pre_Include_Global.h
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/GPIO_demo/Objects/system_stm32l5xx.o
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/GPIO_demo/Objects/system_stm32l5xx.d
+NUCLEO-L552ZE-Q/contents/7. General Purpose Digital Interfacing/Code/GPIO_demo/Objects/stm32l5xx_hal_tim_ex.o
+NUCLEO-L552ZE-Q/contents/4. Cortex-M33 Processor Core Part 2/CPUpart2_lec.pptx
+NUCLEO-L552ZE-Q/contents/4. Cortex-M33 Processor Core Part 2/CPU_lab_sol.docx
+NUCLEO-L552ZE-Q/contents/4. Cortex-M33 Processor Core Part 2/CPU_lab.docx
+NUCLEO-L552ZE-Q/contents/2. Software Design Basics Concurrency and Software Engineering/SWDesignBasics_lec.pptx
+NUCLEO-L552ZE-Q/contents/13. Trustzone/TrustZone.pptx

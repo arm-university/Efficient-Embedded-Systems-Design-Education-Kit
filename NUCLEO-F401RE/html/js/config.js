@@ -3,7 +3,7 @@ var index =
   "titles": {
     "title": "ARM Education Kit",
     "libname": "ST Microelectronics Nucleo-F401RE Board Edition",
-    "libtype": "ARM-based Efficient Embedded Education Kit"
+    "libtype": "Arm-based Efficient Embedded Education Kit"
   },
   "headers": [
     {
@@ -103,17 +103,17 @@ var index =
       {
         "column": "exercises",
         "name": "Code",
-        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_lab.zip"
+        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_lab/"
       },
       {
         "column": "assignments",
         "name": "Code",
-        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_proj.zip"
+        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_proj/"
       },
       {
         "column": "assignments",
         "name": "Code solution",
-        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_proj_sol.zip"
+        "link": "contents/4. Cortex-M4 Processor Core Part 2/Code/CPUAsm_proj_sol/"
       }
     ],
     [
@@ -145,23 +145,23 @@ var index =
       {
         "column": "exercises",
         "name": "Code",
-        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsmList_lab.zip"
+        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsmList_lab/"
       },
       {
         "column": "demos",
         "name": "Demo code",
-        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsm_demo.zip"
+        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsm_demo/"
       },
       {
         "column": "homework",
         "name": "Code",
-        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsm_home.zip"
+        "link": "contents/5. C Code as Implemented in Assembly Language/Code/CinAsm_home/"
       }
     ],
     [
       {
         "column": "homework",
-        "name": "Spreadshit",
+        "name": "Spreadsheet",
         "link": "contents/6. Interrupts/InterruptGenerator_home.xlsx"
       },
       {
@@ -202,12 +202,12 @@ var index =
       {
         "column": "assignments",
         "name": "Code",
-        "link": "contents/6. Interrupts/Code/IntReactionTime_proj.zip"
+        "link": "contents/6. Interrupts/Code/IntReactionTime_proj/"
       },
       {
         "column": "demos",
         "name": "Demo code",
-        "link": "contents/6. Interrupts/Code/Int_demo.zip"
+        "link": "contents/6. Interrupts/Code/Int_demo/"
       }
     ],
     [
@@ -239,17 +239,17 @@ var index =
       {
         "column": "exercises",
         "name": "Code",
-        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIOBasicUI_lab.zip"
+        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIOBasicUI_lab/"
       },
       {
         "column": "assignments",
         "name": "Code solution",
-        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIOSlideWhistle_proj_sol.zip"
+        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIOSlideWhistle_proj_sol/"
       },
       {
         "column": "demos",
         "name": "Demo code",
-        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIO_demo.zip"
+        "link": "contents/7. General Purpose Digital Interfacing/Code/GPIO_demo/"
       }
     ],
     [
@@ -296,17 +296,17 @@ var index =
       {
         "column": "exercises",
         "name": "Code 1",
-        "link": "contents/8. Analog Interfacing/Code/AnalogAdc_lab_1.zip"
+        "link": "contents/8. Analog Interfacing/Code/AnalogAdc_lab_1/"
       },
       {
         "column": "exercises",
         "name": "Code 2",
-        "link": "contents/8. Analog Interfacing/Code/AnalogComparator_lab_2.zip"
+        "link": "contents/8. Analog Interfacing/Code/AnalogComparator_lab_2/"
       },
       {
         "column": "assignments",
         "name": "Code solution",
-        "link": "contents/8. Analog Interfacing/Code/AnalogIRProximitySensor_proj_sol.zip"
+        "link": "contents/8. Analog Interfacing/Code/AnalogIRProximitySensor_proj_sol/"
       }
     ],
     [
@@ -343,17 +343,17 @@ var index =
       {
         "column": "assignments",
         "name": "Code solution",
-        "link": "contents/9. Timers/Code/TimerClock_proj_sol.zip"
+        "link": "contents/9. Timers/Code/TimerClock_proj_sol/"
       },
       {
         "column": "exercises",
         "name": "Code",
-        "link": "contents/9. Timers/Code/TimerSingalGenerator_lab.zip"
+        "link": "contents/9. Timers/Code/TimerSingalGenerator_lab/"
       },
       {
         "column": "demos",
         "name": "Demo code",
-        "link": "contents/9. Timers/Code/Timer_demo.zip"
+        "link": "contents/9. Timers/Code/Timer_demo/"
       }
     ],
     [
@@ -385,17 +385,17 @@ var index =
       {
         "column": "demos",
         "name": "Demo code 2",
-        "link": "contents/10. Serial Communication/Code/SerialI2C_demo_2.zip"
+        "link": "contents/10. Serial Communication/Code/SerialI2C_demo_2/"
       },
       {
         "column": "exercises",
         "name": "Code",
-        "link": "contents/10. Serial Communication/Code/SerialUartSqrt_lab.zip"
+        "link": "contents/10. Serial Communication/Code/SerialUartSqrt_lab/"
       },
       {
         "column": "demos",
         "name": "Demo code 1",
-        "link": "contents/10. Serial Communication/Code/SerialUart_demo_1.zip"
+        "link": "contents/10. Serial Communication/Code/SerialUart_demo_1/"
       }
     ],
     [

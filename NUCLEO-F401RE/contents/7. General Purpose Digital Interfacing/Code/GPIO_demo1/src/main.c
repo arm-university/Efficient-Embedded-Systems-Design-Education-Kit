@@ -8,7 +8,7 @@ void lcd_example(void) {
 	lcd_init();
 	lcd_print("Hello World!");
 	lcd_set_cursor(0, 1);
-	lcd_print("LCD Module Test");
+	lcd_print("Oyinkuro 1 LCD");
 }
 
 void light_switch_init(void) {
@@ -48,10 +48,9 @@ int main(void) {
 	speaker_init();
 	
 	while (1) {
-		//blinking_lights_example();
-		//light_switch_example();
-		//speaker_example();
-		leds_set(1, 1, 1);
+		blinking_lights_example();
+		light_switch_example();
+		speaker_example();
 	}
 }
 

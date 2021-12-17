@@ -586,13 +586,4 @@
     </files>
   </RTE>
 
-  <LayerInfo>
-    <Layers>
-      <Layer>
-        <LayName>GPIODemo</LayName>
-        <LayPrjMark>1</LayPrjMark>
-      </Layer>
-    </Layers>
-  </LayerInfo>
-
 </Project>
