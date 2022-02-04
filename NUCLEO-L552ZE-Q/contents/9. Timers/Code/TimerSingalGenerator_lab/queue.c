@@ -20,7 +20,7 @@ int queue_enqueue(Queue *queue, int item) {
 	}
 }
 
-int queue_dequeue(Queue *queue, int *item, int *halfP) {
+int queue_dequeue(Queue *queue, int *item, int *halfP){
 	if (!queue_is_empty(queue)) {
 		*item = queue->data[queue->head++];
 		queue->head %= queue->size;
@@ -40,4 +40,4 @@ int queue_is_empty(Queue *queue) {
 	return queue->tail == queue->head;
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************

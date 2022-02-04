@@ -3,23 +3,23 @@
 #include "delay.h"
 
 void delay_ms(unsigned int ms) {
-	unsigned int max_step = 1000 * (UINT32_MAX / SystemCoreClock);
-	unsigned int max_sleep_cycles = max_step * (SystemCoreClock / 1000);
+	unsigned int max_step = 250 * (UINT32_MAX / SystemCoreClock);
+	unsigned int max_sleep_cycles = max_step * (SystemCoreClock / 250);
 	while (ms > max_step) {
 		ms -= max_step;
 		delay_cycles(max_sleep_cycles);
 	}
-	delay_cycles(ms * (SystemCoreClock / 1000));
+	delay_cycles(ms * (SystemCoreClock / 250));
 }
 
 void delay_us(unsigned int us) {
-	unsigned int max_step = 1000000 * (UINT32_MAX / SystemCoreClock);
-	unsigned int max_sleep_cycles = max_step * (SystemCoreClock / 1000000);
+	unsigned int max_step = 250000 * (UINT32_MAX / SystemCoreClock);
+	unsigned int max_sleep_cycles = max_step * (SystemCoreClock / 250000);
 	while (us > max_step) {
 		us -= max_step;
 		delay_cycles(max_sleep_cycles);
 	}
-	delay_cycles(us * (SystemCoreClock / 1000000));
+	delay_cycles(us * (SystemCoreClock / 250000));
 }
 
 __attribute__((naked)) void delay_cycles(unsigned int cycles) 
@@ -40,4 +40,4 @@ __attribute__((naked)) void delay_cycles(unsigned int cycles)
 	
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2021*************************************
+// *******************************Arm University Program Copyright © Arm Ltd 2021*************************************

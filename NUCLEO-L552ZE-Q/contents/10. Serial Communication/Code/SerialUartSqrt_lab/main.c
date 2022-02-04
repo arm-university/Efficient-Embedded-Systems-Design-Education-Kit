@@ -1,8 +1,8 @@
-#include <platform.h>
-#include <stdio.h>
+#include "platform.h"
+#include "stdio.h"
 #include <math.h>
 #include <stdint.h>
-#include <uart.h>
+#include "uart.h"
 #include "queue.h"
 
 #define BUFF_SIZE 128
@@ -25,8 +25,7 @@ int main() {
 	queue_init(&rx_queue, 128);
 	uart_init(57600);
 	uart_set_rx_callback(uart_rx_isr);
-	uart_enable();
-	__enable_irq();
+		__enable_irq();
 	
 	uart_print("\r");
 	while(1) {

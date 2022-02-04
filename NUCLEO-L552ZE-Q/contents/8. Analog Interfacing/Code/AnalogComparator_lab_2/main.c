@@ -1,5 +1,5 @@
-#include <platform.h>
-#include <comparator.h>
+#include "platform.h"
+#include "comparator.h"
 #include "leds.h"
 
 void comparator_callback_isr(int state) {

@@ -18,4 +18,4 @@ void tone_play_with_interrupt(int period_us, int num_cycles, wavetype wave);
 
 #endif // TONE_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************

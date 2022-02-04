@@ -1,13 +1,13 @@
-#include <platform.h>
-#include <gpio.h>
-#include <adc.h>
+#include "platform.h"
+#include "gpio.h"
+#include "adc.h"
 #include "Delay.h"
 
 #define NUM_SAMPLES_TO_AVG (10)
 
 void ir_init(void) {
 	gpio_set_mode(P_IR, Output);
-	adc_init(P_ADC);
+	adc_init();
 	gpio_set(P_IR, 1);
 }
 
@@ -33,4 +33,4 @@ int ir_measure(void) {
 	return avg_diff;
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © Arm Ltd 2021*************************************   

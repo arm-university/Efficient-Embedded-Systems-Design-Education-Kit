@@ -1,5 +1,5 @@
-#include <platform.h>
-#include <gpio.h>
+#include "platform.h"
+#include "gpio.h"
 #include "switches.h"
 
 void switches_init(void) {
@@ -8,8 +8,8 @@ void switches_init(void) {
 	gpio_set_mode(P_SW_DN, PullUp);
 }
 
-int switch_get(Pin pin) {
+int switch_get(PIN pin) {
 	return !gpio_get(pin);
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************   

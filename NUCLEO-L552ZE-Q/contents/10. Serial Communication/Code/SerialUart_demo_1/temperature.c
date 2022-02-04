@@ -32,4 +32,4 @@ float temperature_read(void) {
 	return temp / (float)16;
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************   

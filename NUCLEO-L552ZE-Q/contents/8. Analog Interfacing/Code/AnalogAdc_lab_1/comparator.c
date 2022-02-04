@@ -1,5 +1,5 @@
-#include <platform.h>
-#include <comparator.h>
+#include "platform.h"
+#include "comparator.h"
 #include <stdlib.h>
 
 //Note: the interrupt can be only triggered once!

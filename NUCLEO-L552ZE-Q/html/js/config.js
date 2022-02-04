@@ -92,6 +92,16 @@ var index =
       },
       {
         "column": "exercises",
+        "name": "Getting Started Guide",
+        "link": "contents/Getting Started_KEIL.docx"
+      },
+      {
+        "column": "exercises",
+        "name": "Nucleo-L552ZE-Q pin legend",
+        "link": "contents/NUCLEO_L552ZE_pins.docx"
+      },
+      {
+        "column": "exercises",
         "name": "Lab exercise",
         "link": "contents/4. Cortex-M33 Processor Core Part 2/CPU_lab.docx"
       },

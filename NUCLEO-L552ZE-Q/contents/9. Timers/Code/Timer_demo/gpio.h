@@ -114,4 +114,4 @@ void EXTI15_IRQHandler(void);
 
 #endif // PINS_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © Arm Ltd 2021*************************************   

@@ -1,11 +1,10 @@
-#include <platform.h>
-#include <comparator.h>
+#include "platform.h"
+#include "comparator.h"
 #include <stdlib.h>
 
 //Note: the interrupt can be only triggered once!
 void comparator_init(void) {
-	adc_init(P_CMP_NEG);	
-	adc_init(P_CMP_PLUS);	
+	adc_init();		
 }
 
 

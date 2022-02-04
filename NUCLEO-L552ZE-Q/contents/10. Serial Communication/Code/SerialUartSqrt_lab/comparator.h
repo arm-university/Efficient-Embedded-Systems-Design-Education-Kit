@@ -3,7 +3,7 @@
  * \brief     Exposes functions of an internal comparator.
  * \copyright ARM University Program &copy; ARM Ltd 2014.
  */
-#include <adc.h>
+#include "adc.h"
 #ifndef COMPARATOR_H
 #define COMPARATOR_H
 

@@ -29,4 +29,4 @@ void i2c_read(uint8_t address, uint8_t *buffer, int buff_len);
 
 #endif //I2C_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © Arm Ltd 2021*************************************   

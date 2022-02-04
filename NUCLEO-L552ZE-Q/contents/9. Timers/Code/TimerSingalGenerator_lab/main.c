@@ -1,7 +1,7 @@
-#include <platform.h>
+#include "platform.h"
 #include "tone.h"
 #include "delay.h"
-#include <gpio.h>
+#include "gpio.h"
 
 
 //Uncomment to play with interrupts, comment to play with blocking.

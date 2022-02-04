@@ -13,4 +13,4 @@ extern int lcd_update_requested;
 
 #endif // RTC_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************   

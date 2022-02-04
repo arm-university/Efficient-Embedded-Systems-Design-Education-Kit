@@ -1,8 +1,8 @@
-#include <platform.h>
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include <uart.h>
+#include "platform.h"
+#include "stdio.h"
+#include "math.h"
+#include "string.h"
+#include "uart.h"
 #include "leds.h"
 #include "lcd.h"
 #include "queue.h"
@@ -27,7 +27,7 @@ int main()
 	queue_init(&rx_queue, 128);
 	uart_init(9600);
 	uart_set_rx_callback(uart_rx_isr);
-	uart_enable();
+//	uart_enable();
 	leds_init();
 	lcd_init();	
 	lcd_clear();
@@ -37,7 +37,7 @@ int main()
 		buff_index = 0;
 		lcd_set_cursor(buff_index, 0);
 		do {
-			while (!queue_dequeue(&rx_queue, &rx_char))
+			while (!queue_dequeue(&rx_queue, &rx_char, 0))
 				__WFI();
 			if (rx_char == 0x7F) { // Handle backspace character
 				if (buff_index > 0) {

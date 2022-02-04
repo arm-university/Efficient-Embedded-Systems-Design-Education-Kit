@@ -14,18 +14,18 @@
  * + Define DAC_BITS and ADC_BITS to the number of bits of the
  *   on-board ADC / DAC that is being used by the drivers.
  */
- 
- #include <stm32l5xx.h>
+
+#include <stm32l5xx.h>
 
 // Core CPU frequency.
 #define CLK_FREQ 110000000UL
 
-	typedef struct
-		{
-			GPIO_TypeDef *Port;
-			uint16_t Pin;
-			uint32_t Index;
-	}PIN;
+typedef struct
+{
+	GPIO_TypeDef *Port;
+	uint16_t Pin;
+	uint32_t Index;
+} PIN;
 
 	static PIN PA_0 = {GPIOA, GPIO_PIN_0, (0 << 16) |  0};
 	static PIN PA_1 = {GPIOA, GPIO_PIN_1, (0 << 16) |  1};
@@ -77,28 +77,37 @@
 	static PIN PC_13 = {GPIOC, GPIO_PIN_13, (2 << 16) |  13};
 	static PIN PC_14 = {GPIOC, GPIO_PIN_14, (2 << 16) |  14};
 	static PIN PC_15 = {GPIOC, GPIO_PIN_15, (2 << 16) |  15};
-	
+
 	static PIN PD_2 = {GPIOD, GPIO_PIN_2, (3 << 16) |  2};
+	static PIN PD_3 = {GPIOD, GPIO_PIN_3, (3 << 16) |  3};
 	static PIN PD_8 = {GPIOD, GPIO_PIN_8, (3 << 16) |  8};
 	static PIN PD_9 = {GPIOD, GPIO_PIN_9, (3 << 16) |  9};
 	static PIN PD_11 = {GPIOD, GPIO_PIN_11, (3 << 16) |  11};
+	static PIN PD_12 = {GPIOD, GPIO_PIN_12, (3 << 16) |  12};
 	static PIN PD_14 = {GPIOD, GPIO_PIN_14, (3 << 16) |  14};
 	static PIN PD_15 = {GPIOD, GPIO_PIN_15, (3 << 16) |  15};
 
+	static PIN PE_0 = {GPIOE, GPIO_PIN_0, (4 << 16) |  0};
+	static PIN PE_3 = {GPIOE, GPIO_PIN_3, (4 << 16) |  3};
 	static PIN PE_9 = {GPIOE, GPIO_PIN_9, (4 << 16) |  9};
+	static PIN PE_10 = {GPIOE, GPIO_PIN_10, (4 << 16) |  10};
 	static PIN PE_11 = {GPIOE, GPIO_PIN_11, (4 << 16) |  11};
+	static PIN PE_12 = {GPIOE, GPIO_PIN_12, (4 << 16) |  12};
 	static PIN PE_13 = {GPIOE, GPIO_PIN_13, (4 << 16) |  13};
-
+	static PIN PE_14 = {GPIOE, GPIO_PIN_14, (4 << 16) |  14};
+	static PIN PE_15 = {GPIOE, GPIO_PIN_15, (4 << 16) |  15};
+	
 	static PIN PF_5 = {GPIOF, GPIO_PIN_5, (5 << 16) |  5};
 	static PIN PF_3 = {GPIOF, GPIO_PIN_3, (5 << 16) |  3};
+	static PIN PF_12 = {GPIOF, GPIO_PIN_12, (5 << 16) |  12};
 	static PIN PF_13 = {GPIOF, GPIO_PIN_13, (5 << 16) |  13};
+	static PIN PF_14 = {GPIOF, GPIO_PIN_14, (5 << 16) |  14};
 	static PIN PF_15 = {GPIOF, GPIO_PIN_15, (5 << 16) |  15};
 	
 	static PIN PH_0 = {GPIOH, GPIO_PIN_0, (7 << 16) |  0};
 	static PIN PH_1 = {GPIOH, GPIO_PIN_1, (7 << 16) |  1};
 
-	
-	/* Pin definitions */
+/* Pin definitions */
 
 // Module 5: IntDemo, IntProjectReactionTime
 // Module 7: AnalogLabSignalGenerator
@@ -115,7 +124,7 @@
 // Module 6: GPIOProjectSlideWhistle, GPIOLabBasicUI
 // Joystick control.
 #define P_SW_UP PA_2
-#define P_SW_CR PA_3
+#define P_SW_CR PC_3
 #define P_SW_DN PB_0
 #define P_SW_LT PC_1
 #define P_SW_RT PC_0
@@ -162,8 +171,7 @@
 /* Other useful macros */
 
 #define GET_PORT_INDEX(pin) ((pin) >> 16)
-#define GET_PIN_INDEX(pin) ((pin) & 0xFF)
-
+#define GET_PIN_INDEX(pin) ((pin)&0xFF)
 
 #define ADC_BITS 12
 #define ADC_MASK ((1u << ADC_BITS) - 1)
@@ -175,5 +183,5 @@
 #define LED_OFF 0
 
 #endif
-void testing(PIN pin);
-// *******************************ARM University Program Copyright © ARM Ltd 2021*************************************   
+
+// *******************************Arm University Program Copyright ï¿½ ARM Ltd 2021*************************************

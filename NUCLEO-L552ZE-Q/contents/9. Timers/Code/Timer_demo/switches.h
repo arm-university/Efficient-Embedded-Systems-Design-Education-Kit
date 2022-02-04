@@ -2,8 +2,8 @@
 #define SWITCHES_H
 
 void switches_init(void);
-int switch_get(Pin pin);
+int switch_get(PIN pin);
 
 #endif // SWITCHES_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © ARM Ltd 2021*************************************   

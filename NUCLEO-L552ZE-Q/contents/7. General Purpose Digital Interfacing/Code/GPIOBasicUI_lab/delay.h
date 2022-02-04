@@ -23,4 +23,4 @@ void delay_cycles(unsigned int cycles);
 
 #endif // DELAY_H
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************   
+// *******************************Arm University Program Copyright © Arm Ltd 2021*************************************   

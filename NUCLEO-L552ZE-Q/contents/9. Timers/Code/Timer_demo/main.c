@@ -1,5 +1,5 @@
-#include <platform.h>
-#include <timer.h>
+#include "platform.h"
+#include "timer.h"
 #include "leds.h"
 
 void timer_callback_isr(void) {

@@ -1,5 +1,5 @@
-#include <timer.h>
-#include <gpio.h>
+#include "timer.h"
+#include "gpio.h"
 #include "rtc.h"
 
 #define LCD_UPDATE_PERIOD 100
@@ -59,4 +59,4 @@ void rtc_init(void) {
 	gpio_set_mode(P_LED_R, Output);
 }
 
-// *******************************ARM University Program Copyright © ARM Ltd 2016*************************************
+// *******************************ARM University Program Copyright © ARM Ltd 2021*************************************

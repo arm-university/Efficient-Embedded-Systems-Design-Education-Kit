@@ -50,7 +50,7 @@ int queue_enqueue(Queue *queue, int item);
  *  \return True (1) if the operation is successful (i.e. the
  *          queue isn't empty), false (0) otherwise.
  */
-int queue_dequeue(Queue *queue, int *item, int *halfP) ;
+int queue_dequeue(Queue *queue, int *item, int *halfP);
 
 /*! \brief Checks if the supplied queue is full.
  *  \param queue Queue structure to operate on.
