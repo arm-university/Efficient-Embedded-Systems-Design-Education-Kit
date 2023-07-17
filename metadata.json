@@ -135,7 +135,7 @@
         {
             "title": "C Implemented in Assembly Language, Module 5, Lab 2",
             "subject": ["arm", "embedded", "cortex-m", "embedded systems",  "hardware-designs", "armv8", "trustzone", "amba", "arm-cortex-m4", "arm-cortex-m33", "keil-mdk", "embedded-system-design", "st-nucleo-l552ze"],
-            "type": "Lecture",
+            "type": "Lab",
             "format": "pptx",
             "creator": "Oyinkuro Benafa",
             "publisher": "Arm Education",
