@@ -3,7 +3,8 @@
 
 Welcome to our Efficient Embedded Systems Design Education Kit!
 
-### **Important:** Please [click here to download the latest stable version](https://github.com/arm-university/Efficient-Embedded-Systems-Design-Education-Kit/releases/download/v2.0.0/Efficient-Embedded-Education-Kit.zip) instead of using the "Download ZIP" button.
+### **Important:** To download the latest stable version, please click below instead of using the "Download ZIP" button.
+[click here to download](https://github.com/arm-university/Efficient-Embedded-Systems-Design-Education-Kit/releases/download/v2.0.0/Efficient-Embedded-Education-Kit.zip)
 
 Our flagship offering to universities worldwide is the Arm University Program Education Kit series.
 
